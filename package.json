@@ -1,0 +1,23 @@
+{
+  "name": "node_command_line",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "main": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chance": "^1.1.8",
+    "inquirer": "^8.2.4",
+    "mongodb": "^4.6.0",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  }
+}
